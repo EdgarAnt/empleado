@@ -30,13 +30,14 @@ class EmpleadoController extends Controller
     {
         //
     }
-
+//tequieromusho
+//hola
     /**
      * Display the specified resource.
      */
     public function show(Empleado $empleado)
     {
-        //
+        //esto es algo que revisare
     }
 
     /**
