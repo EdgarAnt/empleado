@@ -14,6 +14,7 @@ class EmpleadoController extends Controller
     public function index()
     {
         //
+        return view('empleado.index');
     }
 
     /**
@@ -31,6 +32,8 @@ class EmpleadoController extends Controller
     public function store(Request $request)
     {
         //
+        $datosEmpleados = request()->all();
+        return response()->json($datosEmpleado);
     }
 //tequieromusho
 //hola
