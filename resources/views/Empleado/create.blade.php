@@ -7,6 +7,6 @@
     <title>Empleados</title>
 </head>
 <body>
-    <h1>Mostrar la lista de empleados</h1>
+    <h1>Formmulario de creacion de empleado</h1>
 </body>
 </html>
