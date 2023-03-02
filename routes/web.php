@@ -27,3 +27,7 @@ Route::get('/empleado', function () {
 });
 
 Route::get('/empleado/create', [EmpleadoController::class,'create']);
+
+
+//quiero preguntar como funciona esto
+Route::resource('empleado', EmpleadoController::class);
