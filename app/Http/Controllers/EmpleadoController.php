@@ -35,8 +35,7 @@ class EmpleadoController extends Controller
         $datosEmpleados = request()->all();
         return response()->json($datosEmpleado);
     }
-//tequieromusho
-//hola
+
     /**
      * Display the specified resource.
      */
